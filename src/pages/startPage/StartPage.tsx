@@ -1,17 +1,20 @@
 import { Link } from "react-router-dom";
 import "./startPage.css";
+import { useContext } from "react";
+import { LachonContext } from "../../context/LachonContext";
 const StartPage = () => {
   const fun = () => {
     const startGameSound = new Audio("./sounds/lachon_trzezwy.mp3");
     startGameSound.play();
   };
+  const { first } = useContext(LachonContext);
   return (
     <div className="bg">
       <img src="./images/lachon/sigmaLachon.jpg" alt="img" />
       <div className="start">
         <h1>Rozpocznij Pice</h1>
         <Link
-          to="/lachon_adventure/game/"
+          to={!first ? "/lachon_adventure/game/" : "/lachon_adventure/deth/"}
           className="startBtm"
           onClick={() => {
             fun();

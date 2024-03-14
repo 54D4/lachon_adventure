@@ -34,6 +34,8 @@ type lachonType = {
   alkohol: alkohol;
   sadaFuncition: () => void;
   sadaDis: boolean;
+  first: boolean;
+  newGame: () => void;
 };
 type alkohol = {
   nazwa: string;
@@ -93,6 +95,10 @@ const LachonContextProvider = ({ children }: { children: ReactNode }) => {
   const [moreStatus, setMoreStatus] = useState(0);
   const [wypiteButelki, setWypiteButelki] = useState(0);
   const [zjedzoneJedzenie, setZjedzoneJedzenie] = useState(0);
+  const [first, setFirst] = useState(true);
+  const newGame = () => {
+    setFirst(false);
+  };
   const sadaFuncition = () => {
     const granatSound = new Audio("./sounds/granatSound.mp3");
     granatSound.volume = 0.3;
@@ -303,7 +309,9 @@ const LachonContextProvider = ({ children }: { children: ReactNode }) => {
     <LachonContext.Provider
       value={{
         restartGame,
+        newGame,
         promil,
+        first,
         addPromil,
         AmountAlko,
         status,
