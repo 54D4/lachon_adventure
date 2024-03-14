@@ -11,7 +11,7 @@ const StartPage = () => {
       <div className="start">
         <h1>Rozpocznij Pice</h1>
         <Link
-          to="/game"
+          to="/lachon_adventure/game/game"
           className="startBtm"
           onClick={() => {
             fun();

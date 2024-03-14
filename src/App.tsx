@@ -10,10 +10,10 @@ const App = () => {
     <BrowserRouter>
       <LachonContextProvider>
         <Routes>
-          <Route path="/" element={<StartPage />} />
-          <Route path="/game" element={<MainPage />} />
-          <Route path="/deth" element={<DethPage />} />
-          <Route path="/win" element={<WinPage />} />
+          <Route path="/lachon_adventure/" element={<StartPage />} />
+          <Route path="/lachon_adventure/game" element={<MainPage />} />
+          <Route path="/lachon_adventure/deth" element={<DethPage />} />
+          <Route path="/lachon_adventure/win" element={<WinPage />} />
         </Routes>
       </LachonContextProvider>
     </BrowserRouter>

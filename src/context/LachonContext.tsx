@@ -119,16 +119,16 @@ const LachonContextProvider = ({ children }: { children: ReactNode }) => {
       if (szans_naZgona == 23) {
         lachon_smierc.play();
         clearInterval(interval);
-        navigate("/deth");
+        navigate("/lachon_adventure/deth");
       }
       if (poziomProblemu === 1) {
         restartGame();
         lachon_smierc.play();
-        navigate("/deth");
+        navigate("/lachon_adventure/deth");
         clearInterval(interval);
       }
       if (promil >= 18) {
-        navigate("/win");
+        navigate("/lachon_adventure/win");
       }
     }, 200); // Run every second
 

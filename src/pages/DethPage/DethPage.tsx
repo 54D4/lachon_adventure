@@ -15,7 +15,7 @@ const DethPage = () => {
       <img src="./images/lachon/martwy_lachon.jpg" alt="martwy" />
       <h2>Nie zyjesz</h2>
       <Link
-        to="/game"
+        to="/lachon_adventure/game"
         className="startBtm"
         onClick={() => {
           fun();
