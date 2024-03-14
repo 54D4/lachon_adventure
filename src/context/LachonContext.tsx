@@ -143,7 +143,7 @@ const LachonContextProvider = ({ children }: { children: ReactNode }) => {
       } else {
         restartGame();
         lachon_smierc.play();
-        navigate("/deth");
+        navigate("/lachon_adventure/deth");
         clearInterval(interval); // Stop the interval when count reaches zero
       }
     }, 1000); // Run every second
