@@ -5,7 +5,9 @@ import { LachonContext } from "../../context/LachonContext";
 
 const Main = () => {
   const { addPromil, disBtn, alkohol } = useContext(LachonContext);
-  const mySound = new Audio("./sounds/picie.mp3");
+  const mySound = new Audio(
+    "https://drive.google.com/file/d/1GUNjj6n0hnU-4IGSYEC6YNBVW8almv6h/view"
+  );
 
   return (
     <div className="main">

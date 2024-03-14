@@ -4,7 +4,9 @@ import { useContext } from "react";
 import { LachonContext } from "../../context/LachonContext";
 const StartPage = () => {
   const fun = () => {
-    const startGameSound = new Audio("./sounds/lachon_trzezwy.mp3");
+    const startGameSound = new Audio(
+      "https://drive.google.com/file/d/1VWwN-SyP06JXVdM7rtW6K3nqm4ySzIjO/view"
+    );
     startGameSound.play();
   };
   const { first } = useContext(LachonContext);

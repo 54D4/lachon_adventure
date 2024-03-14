@@ -100,7 +100,9 @@ const LachonContextProvider = ({ children }: { children: ReactNode }) => {
     setFirst(false);
   };
   const sadaFuncition = () => {
-    const granatSound = new Audio("./sounds/granatSound.mp3");
+    const granatSound = new Audio(
+      "https://drive.google.com/file/d/1lgTtujg_3TBgx-D020kw7e3VlPhozZMG/view"
+    );
     granatSound.volume = 0.3;
     if (status >= 400) {
       granatSound.play();
@@ -112,12 +114,16 @@ const LachonContextProvider = ({ children }: { children: ReactNode }) => {
         setSadaDis(false);
       }, 5000);
     } else {
-      const kurwa = new Audio("./sounds/kurwa.mp3");
+      const kurwa = new Audio(
+        "https://drive.google.com/file/d/1hvecMToCrg5YokCxHKmwmx1uLUoTW7m-/view"
+      );
       kurwa.play();
     }
   };
   useEffect(() => {
-    const lachon_smierc = new Audio("./sounds/lachon_smierc.mp3");
+    const lachon_smierc = new Audio(
+      "https://drive.google.com/file/d/1qFqtcPLd-Xz-ALBA4G2SxrFMFJxsU1oa/view"
+    );
     const szans_naZgona = Math.floor(
       Math.random() * Math.floor(wypiteButelki * promil) - zjedzoneJedzenie
     );
@@ -189,7 +195,9 @@ const LachonContextProvider = ({ children }: { children: ReactNode }) => {
   };
   const nowaWiadomosc = () => {
     const losRoz = rozmowa[Math.floor(Math.random() * rozmowa.length) - 1];
-    const phoneSound = new Audio("./sounds/phoneSound.mp3");
+    const phoneSound = new Audio(
+      "https://drive.google.com/file/d/1HC-mMtTD2WuhmL4eHnIg2YZDiB1uWPMv/view"
+    );
 
     if (losRoz !== undefined && wyslano === false) {
       phoneSound.play();
@@ -221,7 +229,9 @@ const LachonContextProvider = ({ children }: { children: ReactNode }) => {
       setTimeout(() => {
         changeQuote();
       }, 8000);
-      const bambiIRL = new Audio("./sounds/bambiIRL.mp3");
+      const bambiIRL = new Audio(
+        "https://drive.google.com/file/d/1GbkA84IMjwvMl0611f3cLSxDRQBPPUb7/view"
+      );
       bambiIRL.volume = 0.2;
       bambiIrl == 1 && bambiIRL.play();
     }
@@ -230,7 +240,9 @@ const LachonContextProvider = ({ children }: { children: ReactNode }) => {
 
   const grantZiom = () => {
     //funkcja granata
-    const granatSound = new Audio("./sounds/granatSound.mp3");
+    const granatSound = new Audio(
+      "https://drive.google.com/file/d/1lgTtujg_3TBgx-D020kw7e3VlPhozZMG/view"
+    );
     granatSound.volume = 0.3;
     if (status >= 100) {
       granatSound.play();
@@ -242,7 +254,9 @@ const LachonContextProvider = ({ children }: { children: ReactNode }) => {
         setGranatUsed(false);
       }, 10000);
     } else {
-      const kurwa = new Audio("./sounds/kurwa.mp3");
+      const kurwa = new Audio(
+        "https://drive.google.com/file/d/1hvecMToCrg5YokCxHKmwmx1uLUoTW7m-/view"
+      );
       kurwa.play();
     }
   };
@@ -276,7 +290,9 @@ const LachonContextProvider = ({ children }: { children: ReactNode }) => {
         setKacaUsed(false);
       }, 2000);
     } else {
-      const kurwa = new Audio("./sounds/kurwa.mp3");
+      const kurwa = new Audio(
+        "https://drive.google.com/file/d/1hvecMToCrg5YokCxHKmwmx1uLUoTW7m-/view"
+      );
       kurwa.play();
     }
   };
