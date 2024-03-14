@@ -1,0 +1,27 @@
+.start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.startBtm {
+  margin: 20px;
+  font-size: 30px;
+  padding: 5px 50px;
+  border-radius: 20px;
+  border: none;
+  background: rgb(184, 82, 209);
+  box-shadow: 0 0 15px -5px black;
+  text-decoration: none;
+  color: white;
+}
+.bg {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.bg img {
+  width: 400px;
+  box-shadow: 0 0 50px;
+}

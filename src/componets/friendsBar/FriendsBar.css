@@ -1,0 +1,35 @@
+.FriendsBar {
+  height: 80vh;
+  background: rgb(234, 56, 102);
+  border-radius: 20px;
+  display: flex;
+  padding: 25px;
+  align-items: center;
+  flex-direction: column;
+}
+.friendCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+  background: rgb(58, 216, 208);
+  margin: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 10px;
+}
+.friendCard:disabled {
+  filter: grayscale(20);
+}
+.friendCard img {
+  border-radius: 20px;
+  width: 112px;
+  height: 112px;
+}
+.ziomeczki {
+  overflow-y: auto;
+}
+.ziomeczki::-webkit-scrollbar {
+  width: 0px;
+}

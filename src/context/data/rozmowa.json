@@ -1,0 +1,20 @@
+[
+  {
+    "message": "zjarałeś sie?",
+    "answer": [
+      { "content": "asdasd", "id": "1" },
+      { "content": "asdasd", "id": "2" },
+      { "content": "gfd", "id": "3" }
+    ],
+    "conrrect": "1"
+  },
+  {
+    "message": "zjarałeś sie 2?",
+    "answer": [
+      { "content": "asdasd", "id": "1" },
+      { "content": "asdasd", "id": "2" },
+      { "content": "gfd", "id": "3" }
+    ],
+    "conrrect": "1"
+  }
+]

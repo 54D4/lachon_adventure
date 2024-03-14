@@ -1,0 +1,8 @@
+[
+  { "nazwa": "pwio", "moc": 8, "img": "./images/alkohole/piwo.png" },
+  { "nazwa": "wino", "moc": 14, "img": "./images/alkohole/wino.png" },
+  { "nazwa": "likeir", "moc": 20, "img": "./images/alkohole/likier.png" },
+  { "nazwa": "wódka", "moc": 40, "img": "./images/alkohole/wódka.png" },
+  { "nazwa": "bimber", "moc": 75, "img": "./images/alkohole/bimber.png" },
+  { "nazwa": "spirytus", "moc": 90, "img": "./images/alkohole/spirytus.png" }
+]

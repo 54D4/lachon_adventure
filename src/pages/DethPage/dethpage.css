@@ -1,0 +1,12 @@
+.dethPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+}
+.dethPage img {
+  margin: 50px;
+  width: 300px;
+}

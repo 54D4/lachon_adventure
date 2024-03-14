@@ -1,0 +1,30 @@
+.progres {
+  height: 80%;
+  width: 15px;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+.left {
+  background: #007bff;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  transition: height 0.2s ease-in-out;
+}
+.alkoProgres {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  height: 80%;
+  flex-direction: column;
+}
+.h1Alko {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  font-size: 30px;
+}

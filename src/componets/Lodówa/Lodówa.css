@@ -1,0 +1,33 @@
+.lodowa {
+  position: absolute;
+  width: 1000px;
+  height: 600px;
+  margin-top: 100px;
+  background: rgb(1, 78, 102);
+  z-index: 1000;
+  padding: 20px;
+  box-shadow: 10px 10px 30px -10px black;
+  border-radius: 20px;
+}
+.lodowaGrid {
+  display: grid;
+}
+.skin img {
+  margin: 12px;
+  width: 128px;
+  height: 128px;
+  border-radius: 20px;
+}
+.skin:hover {
+  width: 128px;
+  height: 128px;
+  scale: 1.2;
+  transition: scale 0.2s ease-in-out;
+}
+.grid {
+  display: grid;
+  overflow-y: auto;
+  height: 90%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 90%;
+}

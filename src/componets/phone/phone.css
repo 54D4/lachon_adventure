@@ -1,0 +1,65 @@
+.phone {
+  position: absolute;
+  margin-top: 100px;
+  width: 400px;
+  height: 800px;
+  background: rgb(160, 209, 255);
+  z-index: 1000;
+  box-shadow: 2px 2px 20px black;
+  border-radius: 30px;
+  border: 10px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+}
+.Problem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Problem img {
+  width: 64px;
+  height: 64px;
+  background: black;
+  margin: 20px;
+  border-radius: 100%;
+}
+.textArea {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.mess {
+  background-color: rgb(18, 100, 148);
+  border-radius: 20px;
+  padding: 20px;
+}
+.wiadomosc {
+  margin: 30px;
+  font-size: 30px;
+  padding: 15px;
+  border-radius: 20px;
+  font-size: 15px;
+  background: rgb(113, 186, 219);
+  border: none;
+}
+.wiadomosc:hover {
+  font-size: 20px;
+}
+.black {
+  position: absolute;
+  width: 400px;
+  height: 800px;
+  background: black;
+  z-index: 1000;
+  box-shadow: 2px 2px 20px black;
+  border-radius: 30px;
+  border: 10px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+}

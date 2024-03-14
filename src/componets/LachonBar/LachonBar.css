@@ -1,0 +1,81 @@
+.LachonBar {
+  height: 80vh;
+  padding: 20px;
+  background: rgba(234, 56, 102);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Lachon {
+  width: 128px;
+  height: 128px;
+  border: 1px solid;
+  border-radius: 15px;
+}
+.Lachon img {
+  width: 128px;
+  border-radius: 20px;
+  height: 128px;
+}
+h2 {
+  margin: 20px;
+}
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+video {
+  width: 150px;
+}
+p {
+  margin: 5px;
+}
+h3 {
+  margin: 15px;
+}
+.epet {
+  margin: 20px;
+  width: 100px;
+  background: none;
+  border: none;
+}
+.ox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.epet img {
+  width: 100px;
+}
+.epet:active {
+  scale: 1.2;
+}
+
+.progress-bar {
+  background-color: #ffffff;
+  height: 10px;
+  width: 90%;
+  border-radius: 5px;
+}
+.progress2 {
+  height: 10px;
+  border-radius: 5px;
+  background: #007bff;
+  transition: width 0.2s ease-in-out;
+}
+.szafkabtn {
+  margin: 20px;
+  background: rgb(99, 56, 234);
+  font-size: 20px;
+  border: none;
+  padding: 5px 20px;
+  color: white;
+  border-radius: 20px;
+}
+.szafkabtn:active {
+  scale: 1.2;
+}
